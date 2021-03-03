@@ -3,8 +3,14 @@ body {
   padding: 0;
 }
 
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .page-header {
   display: flex;
+  justify-content: space-around;
 }
 
 .avatar {
@@ -12,9 +18,4 @@ body {
   width: 90px;
   height: 90px;
   border-radius: 50%;
-}
-
-.wrapper {
-  max-width: 600px;
-  margin: 0 auto;
 }
