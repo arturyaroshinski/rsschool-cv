@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(182, 109, 13);
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.avatar {
+  object-fit: cover;
+  width: 20%;
+}
+
+.code {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  border: 1px solid #d3dce6;
+  font-size: 14px;
+  font-family: monospace, sans-serif;
+}
+
+.footer {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo {
+  width: 80px;
+  height: 60px;
+  background: url("./rs-school.svg") no-repeat center center;
+}
