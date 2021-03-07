@@ -35,21 +35,54 @@
                 </p>
             </article>
 
-            <section class="languages">
-                <h4>Languages:</h4>
-                English: Intermediate(B1).
-                Russian: Native.
-            </section>
-
             <section class="skills">
                 <h4>Tech skills</h4>
                 <ul>
                     <li>C#, .Net Core, asp.net core</li>
-                    <li>html/css, js</li>
+                    <li>html/css, javascript</li>
                     <li>docker, git</li>
                 </ul>
             </section>
+
+            <section class="code-example">
+                <h4>Code example:</h4>
+
+                <pre class="code">
+
+        function isIsogram(str) {
+            str = str.toLowerCase()
+            
+            for (var i = 0; i < str.length; i++) {
+                if (str.indexOf(str.charAt(i), i + 1) >= 0) {
+                return false
+                }
+            }
+            
+            return true
+        }
+
+                </pre>
+            </section>
+
+            <section class="education">
+                <h4>Education:</h4>
+                Student of BSUIR
+            </section>
+
+            <section class="languages">
+                <h4>Languages:</h4>
+                <div>
+                    English: Intermediate(B1).
+                </div>
+                <div>
+                    Russian: Native.
+                </div>
+            </section>
         </main>
+        <footer class="footer">
+            <div class="footer__logo"></div>
+            <div class="footer__year">2021</div>
+        </footer>
     </div>
 </body>
 
